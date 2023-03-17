@@ -1,0 +1,70 @@
+.box {
+    text-align: center;
+    background: rgb(193, 0, 252); 
+    color: #ffffff; 
+    opacity: 0.3;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.Table {
+    margin-left: 230px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.Table thead tr {
+    background-color:rgb(162, 0, 211); 
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.Table th,
+.Table td {
+    padding: 12px 15px;
+}
+
+.Table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.buttonBack {
+    font-size: 20px;
+    background-color: rgb(162, 0, 211); 
+    border: 1px solid rgb(41, 223, 255); 
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .5rem 1rem;
+    text-align: center;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+  }
+  
+  .buttonNext {
+    font-size: 20px;
+    background-color: rgb(162, 0, 211); 
+    border: 1px solid rgb(41, 223, 255); 
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .5rem 1rem;
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+  }
+
+  
